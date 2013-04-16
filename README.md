@@ -19,3 +19,4 @@ This library provides the following functions:
  - `multinomial(k...)`: receives a tuple of `k_1, ..., k_n` and calculates the multinomial coefficient `(n k)`, where `n = sum(k)`; returns a `BigInt` only if given a `BigInt`;
  - `primorial(n)`: returns the product of all positive prime numbers <= n; always returns a `BigInt`;
  - `stirlings1(n, k)`: the signed `(n,k)`-th Stirling number of the first kind; returns a `BigInt` only if given a `BigInt`.
+ - `partitions(n)`: returns a `Vector{Int}` consisting of the partitions of the number `n`.
